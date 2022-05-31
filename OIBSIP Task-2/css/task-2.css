@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+    background-color: black; 
+    background-size: cover;
+    background-blend-mode: darken; 
+}
+.container-description{
+    margin-top:10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Baloo Bhai', cursive;;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.nav a{
+    color: #33C4FF;
+}
+h2 {
+    color: #33C4FF;
+    font-size: 40px
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-family: helvetica;
+    font-size: 20px;
+}
+
+li {
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+a:link, a:visited {
+    font-family: Verdana, sans-serif;
+    background-color: #33C4FF;
+    color: white;
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 100px;
+    font-size: 18px;
+}
+a:hover {
+    background-color: rgb(208, 214, 224);
+    color: black;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    text-shadow: 2px 2px 4px #eee5e5;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.first-section{
+    width: 55%;
+    margin: 30px auto;
+    display: flex;
+}
+hr{
+    width: 55%;
+    margin: 30px auto;
+}
+.first-section p{
+    margin-left: 15px;
+    font-family: 'Baloo Bhai', cursive;;
+    font-size: 20px;
+    text-align: justify;
+}
+.first-section img{
+    height: 350px;
+    width: 330px;
+    border: 4px solid rgb(249, 244, 244);
+}
+.second-section{
+    width: 70%;
+    margin: 20px auto;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 20px;
+    text-align: justify;
+}
+.video{
+    text-align: center;
+}

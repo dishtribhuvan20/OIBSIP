@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Records</title>
+    <link rel="stylesheet" href="css/task-3.css">
+</head>
+<body>
+    
+    <div class="container background" >
+        <div class="card">
+            <div class="title"><spam><b>Records</b></spam></div>
+            <div class="addTodo">
+                <input type="text" id="s1" placeholder="Stud ID">
+            </div>
+            <div class="addTodo">
+                <input type="text" id="s2" placeholder="Stud Name">
+            </div>
+            <div class="addTodo">
+                <input type="text" id="s3" placeholder="Mobile Number">
+            </div>
+            <div class="addTodo">
+                <input type="text" id="s4" placeholder="Gender">
+            </div>
+            <div class="addTodo">
+                <input type="text" id="s5" placeholder="Percentage">
+            </div>
+            <div class="addTodo">
+                <textarea class="form-control" id="addTxt" placeholder="Description"></textarea>
+            </div>
+            <button id="addBtn">Save</button>
+
+        </div>
+        <div class="showContent">
+
+            <table>
+                <thead>
+                    <tr class="header">
+                        <th scope="col" rowspan="3" class="s1">ID</th>
+                        <th scope="col" rowspan="3" class="s2">Name</th>
+                        <th scope="col" rowspan="3" class="s3">Mobile</th>
+                        <th scope="col" rowspan="3" class="s4">Gender</th>
+                        <th scope="col" rowspan="3" class="s5">Percentage</th>
+                        <th scope="col" class="desc">Discription</th>
+                        <th scope="col" class="delete">Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="notes" class="table-content">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+   <script src="js/task-3.js"></script>
+</body>
+
+</html>
